@@ -1,14 +1,14 @@
 {
-    "name": "yii2tech/file-storage",
+    "name": "communityds/yii2-file-storage",
     "description": "File storage abstraction layer for Yii2",
     "keywords": ["yii2", "file", "storage", "abstraction", "amazon", "S3", "mongodb", "gridfs", "ssh", "sftp"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yii2tech/file-storage/issues",
+        "issues": "https://github.com/communityds/file-storage/issues",
         "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "https://github.com/yii2tech/file-storage/wiki",
-        "source": "https://github.com/yii2tech/file-storage"
+        "wiki": "https://github.com/communityds/file-storage/wiki",
+        "source": "https://github.com/communityds/file-storage"
     },
     "authors": [
         {
@@ -31,6 +31,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
         }
     }
 }

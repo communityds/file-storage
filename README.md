@@ -6,33 +6,22 @@
     <br>
 </p>
 
+> Forked from [yii2tech/file-storage](https://github.com/yii2tech/file-storage)
+
 This extension provides file storage abstraction layer for Yii2.
 
 For license information check the [LICENSE](LICENSE.md)-file.
-
-[![Latest Stable Version](https://poser.pugx.org/yii2tech/file-storage/v/stable.png)](https://packagist.org/packages/yii2tech/file-storage)
-[![Total Downloads](https://poser.pugx.org/yii2tech/file-storage/downloads.png)](https://packagist.org/packages/yii2tech/file-storage)
-[![Build Status](https://travis-ci.org/yii2tech/file-storage.svg?branch=master)](https://travis-ci.org/yii2tech/file-storage)
-
 
 Installation
 ------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-Either run
+Run
 
 ```
-php composer.phar require --prefer-dist yii2tech/file-storage
+php composer.phar require --prefer-dist communityds/yii2-file-storage
 ```
-
-or add
-
-```json
-"yii2tech/file-storage": "*"
-```
-
-to the require section of your composer.json.
 
 If you wish to use Amazon S3 storage, see additional installation instructions in the class documentation of
 [yii2tech\filestorage\amazon\Storage](src/amazon/Storage.php).
